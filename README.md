@@ -68,7 +68,7 @@
 
 9. The API should now be accessible at http://127.0.0.1:8000/.
    
-10. Refer the API documentation at http://127.0.0.1:8000/swagger/ for details.
+10. Navigate to API documentation at http://127.0.0.1:8000/swagger/ for details.
 
 
 
