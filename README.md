@@ -20,9 +20,9 @@
 
   Before you begin, ensure you have met the following requirements:
 
-  - Python 3.x installed
+  - Python 3.11.5 installed
   - Pip package manager installed
-  - Virtual environment (optional but recommended)
+  - Virtual environment 
 
 ### Installation
 
@@ -39,7 +39,7 @@
 3. Create a virtual environment :
 
     ```bash
-    python -m venv venv
+    python3.11 -m venv venv
 
 4. Activate the virtual environment :
    
