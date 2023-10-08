@@ -1,6 +1,6 @@
 # Cat Picture API
 
-Cat Picture API is a RESTful API for uploading and managing cat pictures. It allows you to perform various operations, including uploading, deleting, updating, and fetching cat pictures. This API is built using Django and Django REST framework.
+  Cat Picture API is a RESTful API for uploading and managing cat pictures. It allows you to perform various operations, including uploading, deleting, updating, and fetching   cat pictures. This API is built using Django and Django REST framework.
 
 ## Table of Contents
 
@@ -18,11 +18,11 @@ Cat Picture API is a RESTful API for uploading and managing cat pictures. It all
 
 ### Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+  Before you begin, ensure you have met the following requirements:
 
-- Python 3.x installed
-- Pip package manager installed
-- Virtual environment (optional but recommended)
+  - Python 3.x installed
+  - Pip package manager installed
+  - Virtual environment (optional but recommended)
 
 ### Installation
 
@@ -74,27 +74,32 @@ Before you begin, ensure you have met the following requirements:
 
 
 ## Usage
-You can use this API to perform various operations on cat pictures, such as uploading new cat pictures, fetching cat pictures, updating cat pictures, and deleting cat pictures.
+  You can use this API to perform various operations on cat pictures, such as uploading new cat pictures, fetching cat pictures, updating cat pictures, and deleting cat   pictures.
 
 
 
 ## API Endpoints
-GET /catpictures/: Fetch a list of all cat pictures or create a new cat picture.
-POST /catpictures/create: Create a new cat picture.
-GET /catpictures/{cat_picture_id}: Retrieve details of a specific cat picture by its ID.
-PUT /catpictures/{cat_picture_id}: Update a specific cat picture by its ID.
-DELETE /catpictures/{cat_picture_id}: Delete a specific cat picture by its ID.
-For detailed documentation on how to use each endpoint, refer to the API documentation.
+     GET /catpictures/: Fetch a list of all cat pictures or create a new cat picture.  
+
+     POST /catpictures/create: Create a new cat picture.  
+
+     GET /catpictures/{cat_picture_id}: Retrieve details of a specific cat picture by its ID.  
+
+     PUT /catpictures/{cat_picture_id}: Update a specific cat picture by its ID.  
+
+     DELETE /catpictures/{cat_picture_id}: Delete a specific cat picture by its ID.  
+
+  For detailed documentation on how to use each endpoint, refer to the API documentation.  
 
 
 
 ## Testing
-To run the test suite for this project, you can use Django's test runner. In the project directory, run the following command:
+  To run the test suite for this project, you can use Django's test runner. In the project directory, run the following command:
 
       python manage.py test
 
 ## Contributing
-Contributions are welcome! Feel free to open issues or pull requests to improve this project.
+  Contributions are welcome! Feel free to open issues or pull requests to improve this project.
 
 ## License
-This project is licensed under the MIT License.
+  This project is licensed under the MIT License.
