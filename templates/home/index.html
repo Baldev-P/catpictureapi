@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Pictures API</title>
+</head>
+<body>
+    <h1>Welcome to the Cat Pictures API</h1>
+    <p>This API allows you to upload, manage, and retrieve adorable cat pictures. Share your favorite cat moments with the world!</p>
+
+    <h2>View All Pictures</h2>
+    <ul>
+        <li><a href="{% url 'get_cat_pictures' %}">Get All Cat Pictures</a></li>
+        <!-- Add more links to other API endpoints as needed -->
+    </ul>
+
+    <h2>Documentation</h2>
+    <ul>
+        <li><a href="{% url 'schema-swagger-ui' %}">Swagger Documentation</a></li>
+        <li><a href="{% url 'schema-redoc' %}">Redoc Documentation</a></li>
+    </ul>
+</body>
+</html>
