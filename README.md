@@ -1,6 +1,6 @@
 # Cat Picture API
 
-  Cat Picture API is a RESTful API for uploading and managing cat pictures. It allows you to perform various operations, including uploading, deleting, updating, and fetching   cat pictures. This API is built using Django and Django REST framework.
+  Cat Picture API is a RESTful API for uploading and managing cat pictures in png/jpeg file formats. It allows you to perform various operations, including uploading, deleting, updating, and fetching   cat pictures. This API is built using Django and Django REST framework.
 
 ## Table of Contents
 
