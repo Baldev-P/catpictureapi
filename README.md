@@ -59,6 +59,7 @@
 7. Apply database migrations:
 
     ```bash
+    python manage.py makemigrations
     python manage.py migrate
 
 8. Run the development server:
