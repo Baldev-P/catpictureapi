@@ -72,32 +72,6 @@ class CatPictureAPITests(TestCase):
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         os.remove(os.path.join('media/', cat_picture.image.name))
 
-    '''def test_update_cat_picture(self):
-        # Create a test cat picture
-        cat_picture = CatPicture.objects.create(image=self.image_file, title="Test Cat", description="Test Description")
-
-        # Define the payload for updating the cat picture
-        payload = {
-            "title": "Updated Cat",
-            "image": self.image_file,
-            "description": "Updated Description",
-        }
-
-        # Send a PUT request to update the cat picture
-        response = self.client.put(reverse('cat_picture_detail', args=[cat_picture.pk]), payload, 'multipart/form-data')
-
-        # Check if the request was successful (HTTP 200 OK)
-        self.assertEqual(response.status_code, status.HTTP_200_OK)
-
-        # Refresh the cat picture instance from the database
-        cat_picture.refresh_from_db()
-
-        # Check if the cat picture was updated correctly
-        self.assertEqual(cat_picture.title, "Updated Cat")
-        self.assertEqual(cat_picture.description, "Updated Description")
-        os.remove(os.path.join('media/', cat_picture.image.name))'''
-
-
     def test_delete_cat_picture(self):
         # Create a test cat picture
         cat_picture = CatPicture.objects.create(image=self.image_file, title="Test Cat", description="Test Description")
