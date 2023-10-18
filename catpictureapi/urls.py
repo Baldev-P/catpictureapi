@@ -38,7 +38,7 @@ schema_view = get_schema_view(
 urlpatterns = [
     path('', TemplateView.as_view(template_name='home/index.html'), name='home'),
     path('admin/', admin.site.urls),
-    path('catpictures/', include('catpictures.urls')),
+    path('v1/catpictures/', include('catpictures.urls')),
     # URL for Swagger Documentation
     re_path(r'^swagger(?P<format>\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0),
             name='schema-json'),
