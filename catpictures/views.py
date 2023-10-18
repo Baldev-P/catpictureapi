@@ -35,7 +35,11 @@ def cat_pictures(request):
     """
     if request.method == 'GET':
         try:
-            cat_pictures = CatPicture.objects.all()
+            # Get the 'limit' and 'offset' parameters from the request, defaulting to 10 and 0 if not provided
+            limit = int(request.GET.get('limit', 10))
+            offset = int(request.GET.get('offset', 0))
+            # Retrieve cat pictures using limit and offset
+            cat_pictures = CatPicture.objects.all()[offset:offset + limit]
             serializer = CatPictureSerializer(cat_pictures, many=True)
             return Response(serializer.data, status=status.HTTP_200_OK)
         except Exception as e:
