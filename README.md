@@ -80,15 +80,15 @@
 
 
 ## API Endpoints
-     GET /catpictures/: Fetch a list of all cat pictures or create a new cat picture.  
+     GET v1/catpictures/: Fetch a list of all cat pictures or create a new cat picture.  
 
-     POST /catpictures/create: Create a new cat picture.  
+     POST v1/catpictures/create: Create a new cat picture.  
 
-     GET /catpictures/{cat_picture_id}: Retrieve details of a specific cat picture by its ID.  
+     GET v1/catpictures/{cat_picture_id}: Retrieve details of a specific cat picture by its ID.  
 
-     PUT /catpictures/{cat_picture_id}: Update a specific cat picture by its ID.  
+     PUT v1/catpictures/{cat_picture_id}: Update a specific cat picture by its ID.  
 
-     DELETE /catpictures/{cat_picture_id}: Delete a specific cat picture by its ID.  
+     DELETE v1/catpictures/{cat_picture_id}: Delete a specific cat picture by its ID.  
 
   For detailed documentation on how to use each endpoint, refer to the API documentation.  
 
